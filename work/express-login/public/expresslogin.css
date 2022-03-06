@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#EAEDED;
+  }
+  
+   h1{
+    padding: 3rem;   
+    text-align: center;
+    color: darkblue;
+   }
+    
+  .loginBox{
+      width: 500px;
+      height: 500px;
+      background: transparent;
+      color: #fff;
+      top: 50%;
+      left:50%;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      box-sizing: border-box;
+      color: black;
+      font-weight: bold;
+      border-style:solid;
+  } 
+
+  .logo{
+      width:100px;
+      height:100px;
+      border-radius: 50%;
+      position: absolute;
+      top: -90px;
+      left: 30%;
+      /* left:calc(100%-50px); */
+      margin: 35px;
+  }
+
+  .loginBox input{
+    width: 70%;
+    margin-left:0.2rem;
+    margin-bottom: 20px;
+  }
+  
+  button{
+      margin: 1rem;
+      width: 15%;
+      border:none;
+      outline: none;
+      height: 40px;
+      color: white;
+      font-size: 18px;
+      background-color:mediumaquamarine;
+      border-radius: 15px;
+  }
+
+ button:hover{
+     cursor: pointer;
+     background: #ffc107;
+     color: #000;
+ } 
+
+ .login{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+ }
+
+.name{
+    margin-left: 0.5rem;
+}
+
+ .data-saved{
+     margin-left: 0.5rem;
+     margin-top:0.5rem;
+     font-weight: bold;
+ }
+
+ span .datastorage{
+     margin-top: 0.5rem;
+ }
+
+ .data-saved input{
+    width: 40%;
+    margin-left:0.2rem;
+    margin-bottom: 20px;
+  }
+
+  .login{
+      top: 1rem;
+      margin-bottom: 1rem;;
+      padding: 1rem;
+  }
+
