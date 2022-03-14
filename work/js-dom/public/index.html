@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inventory App</title>
+        <link rel="stylesheet" href="inventory.css"/>
+    </head>
+    <body>
+        <div id="store-inventory-app">
+            <div class="app-name">
+                <h1>Store Inventory App</h1>
+            </div>
+            <div class="add-item">
+                Add Item:
+                <input class="item-name">
+                <button class="add"> Add</button>
+            </div>
+            <div class="item-quantity-info">
+                <div class="item-title">
+                    <span class = "item-details"><h2><b>Item</b></h2></span>
+                    <span style ="display: flex; justify-content: center; width: 10%; max-width: 10%;" class="item-details"><h2><b>Quantity</b></h2></span>
+                    <span style = "display: flex; justify-content: flex-end;" class="item-details"><h2><b>Delete Item</b></h2></span>
+                </div>
+                <div class="list-of-items">
+                    <ul class="items">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="inventory.js"></script>
+    </body>
+</html>
