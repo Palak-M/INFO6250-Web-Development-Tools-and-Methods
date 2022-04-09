@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="todo.css"/>
+ 
+</head>
+<body >
+  <main class="">
+    <div class="status"></div>
+    <div class="login">
+      <form action="#">
+        <label>
+          <span>Username:</span>
+          <input class="login__username">
+        </label>
+        <button type="button">Login</button>
+      </form>
+    </div>
+    <div class="content">
+      <div class="controls">
+        <!-- <span class="refresh" style="display: none;">Refresh</span> -->
+        <button class="logout">Logout</button>
+      </div>
+      
+      <form action="#">
+        <span class="inline-fields" style = "top:50%">
+        <button id="decrease-button" type="button" class="dec">-</button>
+        
+        <span class="todos" ></span>
+     
+        <button id="increase-button" type="button" class="add">+</button>
+       
+        </span>
+      </form>
+      </div>
+  </main>
+  <script src="todo.js"></script>
+</body>
+</html>

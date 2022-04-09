@@ -1,0 +1,76 @@
+* { 
+  box-sizing: border-box;
+  
+}
+
+body { 
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  
+  font-family: sans-serif;
+}
+
+.content { 
+  display: none;
+  
+}
+
+.login { 
+  display: none;
+  position: absolute ;
+font-size: x-large;
+top:50%;
+left: 40%;
+}
+
+.login button{
+font-size: medium;
+}
+
+.logged-in .content { 
+  display: block;
+}
+
+.not-logged-in .login {
+  display: block;
+}
+
+.todos { 
+  margin: 0;
+  padding: 0;
+  font-size: xx-large;
+  color: #364;
+  list-style-type: none;
+}
+
+.todo { 
+  display: inline-block;
+  align-items: center;
+  padding: 25px;
+  min-width: 54px;
+  min-height: 54px;
+  
+}
+
+.inline-fields{
+  position: absolute ;
+top:50%;
+left: 50%;
+}
+
+.inline-fields label button{
+  display: inline-block;
+}
+
+.logout{
+  position: absolute;
+  top:0;
+  right: 0;
+  font-size: medium;
+}
+
+.todo label { 
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+
