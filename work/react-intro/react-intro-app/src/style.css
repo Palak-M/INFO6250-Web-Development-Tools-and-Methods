@@ -1,0 +1,41 @@
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title-name{
+    font-family: cursive;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.control{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.control button{
+    margin-left: 10px;
+}
+
+.msg{
+    text-align: center;
+    font-style: italic;
+    color:rgb(6, 67, 182);
+    font-size: medium;
+}
+
+button{
+    color: black;
+    font-family: cursive;
+    font-size:20px;
+    padding: 0.2rem;
+    font-weight: bold;
+    box-shadow: inset 0px 0px 14px -3px #8fa74e;
+    background: linear-gradient(to  bottom, #9ab957 5%, #9ba892 100%);
+    background-color: #dbe6c4;
+    border-radius: 6px;
+}
