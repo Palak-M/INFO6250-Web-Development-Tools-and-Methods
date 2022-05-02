@@ -1,0 +1,174 @@
+html,
+body {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.app {
+  position: absolute;
+  background: #dcdcdc9e;
+  color: #044a57;
+  height: 100%;
+  width: 100%;
+  padding: 40px auto;
+}
+
+label {
+  font-weight: bold;
+}
+
+.login {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.to-login {
+  margin: 10px;
+  height: 35px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.user-details {
+  height: 30px;
+  width: auto;
+}
+
+.inventory-page {
+  margin: 0 0 20px 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.inventory-page > li {
+  padding: 5px;
+}
+
+.heading {
+  margin: 0 40px 20px 40%;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.inventory-page > li.logout {
+  margin-left: auto;
+  margin-right: 10%;
+}
+
+.task-filter-label {
+  margin: auto 10px;
+}
+
+.display {
+  width: fit-content;
+  text-align: center;
+  margin-left: 35%;
+  padding: inherit;
+}
+
+.todo {
+  height: 25px;
+  margin: 2px;
+}
+
+.filter-height {
+  height: 20px;
+}
+
+.checkbox-btn {
+  width: 20px;
+}
+
+.theme {
+  font-style:normal;
+  float: right;
+  width: auto;
+  height: 25px;
+  margin: 0 20% 10px 0;
+}
+
+.app.light {
+  background: #e2d9d6;
+  color: #5c6d70;
+}
+
+.app.dark {
+  background: #319197;
+  color: #fcf1ed;
+}
+
+.app.darkest {
+  background: #872e4e;
+  color: #fcf1ed;
+}
+
+.panel {
+  margin: 50px auto 20px auto;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.todo-container {
+  text-align: center;
+}
+
+.add-todo-container {
+  margin: 20px;
+  height: 300px;
+  width: auto;
+}
+
+.logout {
+  position:fixed;
+  right: 10px;
+  top:3px;
+  font-weight: bold;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-input {
+  width: 30%;
+  height: 20px;
+  outline: none;
+}
+
+.add-btn {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.todo {
+  border: 0;
+}
+
+.error-msg {
+  color: red;
+  text-align: center;
+  font-size: 16px;
+  font-weight:bolder;
+  font-style: italic;
+}
+
+.filter-todos {
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 70%;
+  height: 5%;
+}
+
+.task-delete {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+
