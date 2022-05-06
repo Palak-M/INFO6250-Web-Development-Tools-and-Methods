@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(243, 225, 228);
+}
+    
+.card {
+    width: 17%;
+    height: 85%;
+    border-radius: 20px;
+    min-width: 250px;
+    min-height: 300px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.front,.back{
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+}
+
+.front h3 {
+    font-size: 25px;
+    width: 100px;
+    position: relative;
+    z-index: 10;
+    top:10%;
+}
+
+.front{
+    transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+
+.card:hover .front{
+      height: 0px !important;
+      padding: 0;
+}
+
+.bk_img{
+      position: absolute;
+      bottom: 0px;
+      right: -5%;
+      height: 60%;
+}
+
+.back{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.subHead{
+      width: 85%;
+      background-color: white;
+      border-radius: 10px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+      cursor: pointer;
+      transition: .5s;
+}
+
+.subHead:hover{
+      transform: scale(1.1);
+  }

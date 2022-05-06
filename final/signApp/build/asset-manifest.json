@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.356298e2.chunk.css",
+    "main.js": "/static/js/main.03bd18b1.chunk.js",
+    "main.js.map": "/static/js/main.03bd18b1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e706ad15.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e706ad15.js.map",
+    "static/js/2.30b2609b.chunk.js": "/static/js/2.30b2609b.chunk.js",
+    "static/js/2.30b2609b.chunk.js.map": "/static/js/2.30b2609b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.356298e2.chunk.css.map": "/static/css/main.356298e2.chunk.css.map",
+    "static/js/2.30b2609b.chunk.js.LICENSE.txt": "/static/js/2.30b2609b.chunk.js.LICENSE.txt",
+    "static/media/Dashboard.module.css": "/static/media/Dashboard_bk.d8ea8a0d.png",
+    "static/media/Dashboard_card1.c16831fd.png": "/static/media/Dashboard_card1.c16831fd.png",
+    "static/media/Dashboard_card2.f9bcb345.png": "/static/media/Dashboard_card2.f9bcb345.png",
+    "static/media/Dashboard_card3.d6ff5979.png": "/static/media/Dashboard_card3.d6ff5979.png",
+    "static/media/homepage.module.css": "/static/media/Landing.cf2f54a5.png",
+    "static/media/login.module.css": "/static/media/Login.3d9e29fc.png",
+    "static/media/register.module.css": "/static/media/Register.a73bbd79.png",
+    "static/media/a1.4a2a9bc3.png": "/static/media/a1.4a2a9bc3.png",
+    "static/media/b1.32e9db0b.png": "/static/media/b1.32e9db0b.png",
+    "static/media/c1.e78a926b.png": "/static/media/c1.e78a926b.png",
+    "static/media/hello.38be7d40.PNG": "/static/media/hello.38be7d40.PNG",
+    "static/media/helloword.d4c0c68c.PNG": "/static/media/helloword.d4c0c68c.PNG",
+    "static/media/icon.1c54fb39.png": "/static/media/icon.1c54fb39.png",
+    "static/media/l2.7563d473.png": "/static/media/l2.7563d473.png",
+    "static/media/quiz.module.css": "/static/media/lessonBK.aacba8fb.png",
+    "static/media/no.0ae96aa6.PNG": "/static/media/no.0ae96aa6.PNG",
+    "static/media/noword.aa8b9656.PNG": "/static/media/noword.aa8b9656.PNG",
+    "static/media/profile.module.css": "/static/media/profileimg.6336d72b.png",
+    "static/media/yes.feea9da6.PNG": "/static/media/yes.feea9da6.PNG",
+    "static/media/yesword.96d385d4.PNG": "/static/media/yesword.96d385d4.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e706ad15.js",
+    "static/js/2.30b2609b.chunk.js",
+    "static/css/main.356298e2.chunk.css",
+    "static/js/main.03bd18b1.chunk.js"
+  ]
+}

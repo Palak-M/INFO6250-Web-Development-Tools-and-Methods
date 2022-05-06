@@ -1,0 +1,76 @@
+body{
+  background-color: rgb(243, 225, 228);
+}
+
+.login_wrapper {
+    height: calc( 100vh - 65px );
+    width: 100%;
+    background-color: #e3e1f793;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    overflow: hidden;
+    background-image: url("../Assets/Register.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: calc(100% - 50px);
+    background-position-y: 80px;
+  }
+  
+  .bkImg{
+    position: absolute;
+    height: 70vh;
+    right: 20px;
+    bottom: 20px;
+  }
+  
+  .wrapper {
+    width: 350px;
+    height: 85vh;
+    padding: 0px 40px;
+    border-radius: 20px;
+    background-color: white;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .creds{
+    width: 100%;
+    height: 65%;
+  }
+  
+  .creds p {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .creds input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 20px;
+    padding: 10px 5px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .btn{
+    width: 120px;
+    height: 40px;
+    background-color: #e3e1f793 ;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

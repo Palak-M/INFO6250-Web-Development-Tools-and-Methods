@@ -1,0 +1,45 @@
+body{
+background-color: rgb(243, 225, 228);
+}
+
+.homepageWrapper {
+  height: calc(100vh - 65px);
+  width: 100%;
+  background-image: url("../Assets/Landing.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding: 100px;
+  background-color: #f2f6f9;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  color: #555758;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.62);
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background: #6a6a6a;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+}

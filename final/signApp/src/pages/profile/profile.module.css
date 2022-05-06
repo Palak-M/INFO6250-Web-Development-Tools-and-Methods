@@ -1,0 +1,116 @@
+body{
+  background-color: rgb(243, 225, 228);
+}
+
+.block {
+  display: flex;
+  width: 100%;
+  background-color: rgba(185, 207, 223, 0.19);
+  padding: 25px 60px;
+  flex-wrap: wrap;
+  height: 35vh;
+  background-image: url('../Assets/profileimg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: calc( 100% - 100px ) ;
+  background-position-y:10px ;
+  overflow: hidden;
+}
+
+.info {
+  padding: 10px;
+  margin: 10px;
+  margin-left: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info p {
+  color:#000000;
+  opacity: 0.58;
+}
+
+.image {
+  width: 20%;
+  height: 20%;
+}
+
+.btn {
+  padding: 10px 25px;
+  margin: 15px 0px;
+  background-color:#6a6a6a;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  border:none;
+  font-size: large;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.column h2{
+  margin-bottom: 5px;
+
+}
+
+.achievement {
+  padding: 0px 100px;
+  height: calc(65vh - 65px);
+}
+
+.important {
+  margin: 20px 0px;
+}
+
+.bannerrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 15px;
+  width: 55%;
+  height: 75px;
+  min-width: 300px;
+}
+
+.bannerrow img{
+  height: 50px;
+}
+
+.achievementBar{
+    height: 75px;
+    width: 80%;
+    border:  3px solid #6a6a6a;
+    border-radius: 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.achievementBar h3{
+  min-width: 130px;
+  width: 130px;
+
+}
+
+.Bars{
+  height: 10px;
+  border-radius: 10px;
+  width: 60%;
+  margin-left: 30px;
+  background-color: #0066FF;
+}

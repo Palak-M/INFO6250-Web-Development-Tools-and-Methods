@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(243, 225, 228);
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Varela Round', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.custom_scrollBar {
+  overflow-y: auto;
+}
+
+.custom_scrollBar::-webkit-scrollbar {
+  width: 0.4em;
+  height: 0.4em;
+}
+
+.custom_scrollBar::-webkit-scrollbar,
+.custom_scrollBar::-webkit-scrollbar-thumb {
+  overflow: visible;
+  border-radius: 4px;
+}
+
+.custom_scrollBar::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
